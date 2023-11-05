@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+h1 {
+ text-align: center;
+ margin-top: 31px;
+}
+
+.container-image {
+   position: relative;
+   margin: 50px auto;
+   width: 50%;
+   height: 523px;
+ 
+ 
+}
+.container-image  img {
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+
+.button-left,
+.button-right {
+    border: 1px solid gray;
+    position:absolute;
+    height: 50px;
+    top: 50%;
+    font-size: 35px;
+    color: white;
+    border-radius: 5px;
+    
+
+} 
+
+.button-right {
+   right: 7px;
+}
+
+.button-left{
+    left: 7px;
+ }
+
+.button-left:hover,
+.button-right:hover{
+transform: scale(1.2);
+color: grey;
+border-color: white;
+cursor: pointer;
+}
+
+
+.numbers-slide {
+    position: absolute;
+    bottom: 7px;
+    left: 36%;
+  
+}
+
+.numbers-slide .num-slide {
+    display: inline-block;
+     text-align: center;
+    font-size: 20px;
+    width: 30px;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 2px solid rgb(148, 137, 137);
+    border-radius: 3px;
+}
+
+
+
+
+
+
